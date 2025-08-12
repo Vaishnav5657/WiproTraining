@@ -1,0 +1,17 @@
+.container {
+            border: 2px solid black;
+           
+            /* width: 500px; */
+            margin-top: 20px;
+        }
+
+        .box1 {
+            background-color: lightblue;
+            margin: 50px 40px 40px 50px;
+        }
+
+        .box2 {
+            background-color: lightcoral;
+            margin: 50px 40px 40px 50px;
+        }
+    
