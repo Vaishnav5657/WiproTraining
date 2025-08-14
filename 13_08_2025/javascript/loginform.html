@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ex11 - Login Form </title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm" novalidate>
+            <!-- Email -->
+            <label>Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email">
+            <div class="error" id="emailError"></div>
+
+            <!-- Password -->
+            <label>Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+            <div class="error" id="passwordError"></div>
+
+            <!-- Button -->
+            <button type="button" id="loginBtn">Login</button>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
