@@ -1,0 +1,7 @@
+<p>home works!</p>
+
+<!-- @for (item of num; track $index) {
+    <app-display-list [fruits] = "fruits"></app-display-list>
+} -->
+
+<app-display [fruits] = "fruits"  (btnClick)="remove($event)"></app-display>

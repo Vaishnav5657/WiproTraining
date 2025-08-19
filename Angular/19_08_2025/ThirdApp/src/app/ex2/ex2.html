@@ -1,0 +1,25 @@
+<h2>ex2 works!</h2>
+
+<div [ngClass]="'app'">
+    <h1> this is ng class demo with only app class using</h1>
+</div>
+
+<div [ngClass]="['app', 'app2']">
+    <h1> this is ng class demo with using app class and app2 class</h1>
+</div>
+
+<div [ngClass]="{'app': true, 'app2': false}">
+    <h1> this is ng class demo with using app class and another is kept false</h1>
+</div>
+
+
+<h2>Ex3: ngClass using a function</h2>
+<div [ngClass]="getngClass()">
+    <h1> div 4 using function</h1>
+</div>
+
+
+<h2>Ex4: ngStyle</h2>
+<div [ngStyle]="{color: flag? 'blue': 'red' , background: 'black'}"> 
+    This is ng styling
+ </div>
