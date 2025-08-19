@@ -1,0 +1,24 @@
+<p>tasklist works!</p>
+
+<table class="table table-bordered mt-3">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Category</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let task of tasks">
+      <td>{{ task.description }}</td>
+      <td>{{ task.category }}</td>
+      <td>
+        <button class="btn btn-danger btn-sm" (click)="deleteTask.emit(task.id)">Delete</button>
+      </td>
+    </tr>
+    <tr *ngIf="tasks.length === 0">
+      <td colspan="3" class="text-center text-muted">No tasks yet</td>
+    </tr>
+  </tbody>
+</table>
+

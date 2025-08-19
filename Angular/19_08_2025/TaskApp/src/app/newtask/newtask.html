@@ -1,0 +1,22 @@
+<p>newtask works!</p>
+
+<div class="card mt-4">
+  <div class="card-body">
+    <h5 class="card-title">Add New Task</h5>
+
+    <div class="mb-3">
+      <label for="desc" class="form-label">Task Description</label>
+      <input id="desc" type="text" class="form-control" [(ngModel)]="description" placeholder=" " />
+    </div>
+
+    <div class="mb-3">
+      <label for="cat" class="form-label">Category</label>
+      <select id="cat" class="form-select" [(ngModel)]="category">
+        <option *ngFor="let c of categories" [value]="c">{{ c }}</option>
+      </select>
+    </div>
+
+    <button class="btn btn-primary" (click)="submit()">Add Task</button>
+  </div>
+</div>
+

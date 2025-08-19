@@ -1,0 +1,10 @@
+<p>home works!</p>
+
+<div class="container mt-4">
+  <h2>My Task Manager</h2>
+  <!-- show task list -->
+  <app-tasklist [tasks]="tasks" (deleteTask)="deleteTask($event)"></app-tasklist>
+  <!-- form to add new task -->
+  <app-newtask (addTask)="addTask($event)"></app-newtask>
+</div>
+
