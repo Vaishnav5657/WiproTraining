@@ -1,0 +1,25 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "fuelType": "Petrol",
+      "model": "Fortuner",
+      "price": 15000
+    },
+    {
+      "id": 2,
+      "make": "TATA",
+      "fuelType": "Diesel",
+      "model": "Curvv",
+      "price": 18000
+    },
+    {
+      "id": 3,
+      "make": "Mahindra",
+      "fuelType": "Diesel",
+      "model": "XUV 700",
+      "price": 35000
+    }
+  ]
+}
