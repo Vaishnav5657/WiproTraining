@@ -1,0 +1,14 @@
+<h3>ex.1</h3>
+<input type="text" [(ngModel)] = "userInput">
+<p> {{ userInput | uppercase}}</p>
+
+<h3>ex.2</h3>
+<input type="date" [(ngModel)] = "selectDate">
+<p> {{ selectDate | date:'short'}}</p>
+
+<h3>ex.3</h3>
+<input type="number" [(ngModel)] = "temperatureC">
+<p> {{ temperatureC | fahrenheite }}</p>
+
+<h3>ex.4</h3>
+<p appHighlighttext> This text will be yellow and strikethrough </p>
