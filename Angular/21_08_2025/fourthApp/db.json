@@ -20,6 +20,13 @@
       "fuelType": "Diesel",
       "model": "XUV 700",
       "price": 35000
+    },
+    {
+      "id": "4",
+      "make": "Tata",
+      "fuelType": "Petrol",
+      "model": "harrier",
+      "price": 15000
     }
   ]
 }
