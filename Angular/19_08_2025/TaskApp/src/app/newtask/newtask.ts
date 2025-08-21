@@ -11,7 +11,7 @@ import { FormsModule } from '@angular/forms';
 export class Newtask {
 
   description = '';
-  category = 'select categories';
+  category = ' ';
   categories = ['Work', 'Study', 'Exercise'];
 
   @Output() addTask = new EventEmitter<{ description: string; category: string }>();
