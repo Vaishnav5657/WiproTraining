@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 65000
+    },
+    {
+      "id": "2",
+      "name": "phone",
+      "category": "Electronics",
+      "price": "4000"
+    },
+    {
+      "id": "3",
+      "name": "Car",
+      "category": "Toy",
+      "price": 299
+    },
+    {
+      "id": "4",
+      "name": "pen",
+      "category": "study",
+      "price": 20
+    }
+  ]
+}
