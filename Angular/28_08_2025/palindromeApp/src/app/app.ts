@@ -9,7 +9,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
 
-  protected readonly title = signal('jasmineTest');
+  protected readonly title = signal('palindromeApp');
 
   isPalindrome(word:string){
     return word == word.split('').reverse().join('')
