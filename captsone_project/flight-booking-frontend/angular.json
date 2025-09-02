@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "flightbookApp": {
+    "flight-booking-frontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -22,8 +22,14 @@
               }
             ],
             "styles": [
-              "src/styles.css"
-            ]
+              "src/styles.css",
+  "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "server": "src/main.server.ts",
+            "outputMode": "server",
+            "ssr": {
+              "entry": "src/server.ts"
+            }
           },
           "configurations": {
             "production": {
@@ -53,10 +59,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "flightbookApp:build:production"
+              "buildTarget": "flight-booking-frontend:build:production"
             },
             "development": {
-              "buildTarget": "flightbookApp:build:development"
+              "buildTarget": "flight-booking-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,5 +87,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2f70b166-f691-4a98-9bf3-116265a6e1a9"
   }
 }
